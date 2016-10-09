@@ -1,4 +1,4 @@
-h1 {
+.one {
   text-align: center;
   color: orange;
 }
@@ -11,9 +11,16 @@ img {
    margin-top: -250px; /* Half the height */
    margin-left: -250px;
 }
+
+.two {
+  text-align: center;
+  color: white;
+  text-transform: inherit;
+}
+
 .buju {
   margin-left: 20px;
-  margin-top: 250px;
+  margin-top: 300px;
   margin-right: 20px;
   font-family: cabin condensed, sans serif;
   letter-spacing: 0.2px;
@@ -21,11 +28,16 @@ img {
 
 h2 {
   text-align: center;
+  color: white;
 }
 
-body{
+body {
   background: url("file:///home/jessicah/Desktop/coderamp-selfassessments/sa1/assets/bg.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-  float: left;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+span {
+  text-transform: lowercase;
 }
