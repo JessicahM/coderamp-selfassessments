@@ -29,6 +29,7 @@ img {
 h2 {
   text-align: center;
   color: white;
+  margin-bottom: 290px;
 }
 
 body {
@@ -40,4 +41,28 @@ body {
 }
 span {
   text-transform: lowercase;
+}
+
+header {
+  position:fixed;
+	top:0.5px;
+	left:336px;
+	width:45.7%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+  height: 45px;
+}
+
+
+footer {
+position:fixed;
+bottom:0.18px;
+left:336px;
+width:47.5%;
+color:black;
+background:#333;
+padding:8px;
+height: 55px;
+display: inline-table;
 }
