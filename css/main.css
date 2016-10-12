@@ -103,37 +103,48 @@ right: 0;
 }
 
 #tag {
+  font-size: 20px;
+  color: white;
+  font-family: lato;
   position:absolute;
-  left:30%;
+  left:33%;
   margin: auto;
   padding: 0.24;
   height: 200px;
-  top: 180px;
+  top: 190px;
 }
 
-#tag2 {
+#tear {
   position:absolute;
-  right:-1600%;
+  right: 28%;
   margin: auto;
   padding: 0.6;
   height: 200px;
-  top: 2px;
-  float: right;
+  top: 190px;
+  color: white;
+  font-size: 20px;
+  font-family: lato;
 }
 
-#tag p {
-  font-size: 20px;
-  color: white;
-}
-#tag h3 {
-  font-size: 20px;
-  color: white;
-  line-height: 5px;
-  position:absolute;
-  left:30%;
+#p {
+  top: 25%;
   margin: auto;
-  padding: 0.24;
+  left: 20%;
   height: 200px;
-  top: 30px;
+  padding: 0.6;
+}
+#h3 {
+  line-height: 5px;
+  top: 190px;
+  left: 150%;
+}
+
+#tear h3 {
+  top: 125%;
+  margin: auto;
+  left: 20%;
+  height: 200px;
+  padding: 0.6;
+
 
 }
