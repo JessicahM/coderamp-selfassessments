@@ -34,10 +34,10 @@ h2 {
 
 body {
   background: url("file:///home/jessicah/Desktop/coderamp-selfassessments/sa1/assets/bg.jpg");
+  filter: grayscale("http://www.beautycolorcode.com/b8b8b8-1440x900.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-
 }
 span {
   text-transform: lowercase;
@@ -89,8 +89,6 @@ top: 190px;
 bottom: 0;
 left: 0;
 right: 0;
-line-height: 5px;
-font-size: 20px;
 
 }
 
@@ -99,7 +97,26 @@ font-size: 20px;
   font-family: lato;
   text-align: center;
   text-indent: 50px;
-  font-size: 20px;
+  font-size: 22px;
   bottom: 200px;
+  line-height: 10px;
+}
 
+#tag {
+  position:absolute;
+  left:30%;
+  margin: auto;
+  padding: 0.24;
+  height: 200px;
+  top: 180px;
+}
+
+#tag2 {
+  position:absolute;
+  right:-1600%;
+  margin: auto;
+  padding: 0.6;
+  height: 200px;
+  top: 10px;
+  float: right;
 }
